@@ -57,7 +57,7 @@ const Page = () => {
               className="rounded-full w-10 h-10"
               alt="logo"
             />
-            <p className="text-3xl font-bold text-gray-800">
+            <p className="text-2xl font-bold text-gray-800">
               Frontend Assesment
             </p>
           </div>
