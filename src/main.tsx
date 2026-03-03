@@ -81,7 +81,7 @@ const Page = () => {
                   }}
                 >
                   <option value="">--Pilih Provinsi--</option>
-                  {provinces.map((p, i) => (
+                  {provinces.map((p) => (
                     <option value={p.id} key={p.id}>
                       {p.name}
                     </option>
@@ -103,7 +103,7 @@ const Page = () => {
                   disabled={!province}
                 >
                   <option value="">--Pilih Kota/Kabupaten--</option>
-                  {filteredRegencies.map((r, i) => (
+                  {filteredRegencies.map((r) => (
                     <option value={r.id} key={r.id}>
                       {r.name}
                     </option>
@@ -126,7 +126,7 @@ const Page = () => {
                   disabled={!regency}
                 >
                   <option value="">--Pilih Kecamatan--</option>
-                  {filteredDistricts.map((d, i) => (
+                  {filteredDistricts.map((d) => (
                     <option value={d.id} key={d.id}>
                       {d.name}
                     </option>
