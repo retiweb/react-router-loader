@@ -13,6 +13,7 @@ async function loader() {
   return data;
 }
 
+//update
 const Page = () => {
   const { provinces, regencies, districts } = useLoaderData() as {
     provinces: any[];
